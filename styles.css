@@ -1,3 +1,178 @@
 body {
     font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #F9FAF8;
+   
 }
+
+img {
+    width: 600px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    width: 130px;
+    padding: 5px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+    .body {
+    flex: 1;
+    display: flex;
+}
+
+.header {
+background-color: #1F2937;
+color: #e5e7eb;
+display: flex;
+justify-content: space-between;
+padding: 16px 100px;
+}
+
+.title {
+ color: #F9FAF8;
+ font-size: 24px;
+ 
+
+}
+
+.header-links {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+.hero {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+    
+    
+}
+
+.left-txt {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.left {
+    flex-direction: column;
+}
+
+.great {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;  
+
+}
+ .cardigan {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold; 
+    color: #1f2937;
+    padding-top: 50px;
+ }
+.cousins {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+.cousin {
+    height: 250px;
+    width: auto;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+
+}
+
+.quoteline {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    font-size: 30px;
+    font-style: light bold;
+    color: #1F2937;
+    text-align: right;
+padding-right: 150px;
+}
+
+
+.call {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 75px;
+    border-radius: 6px;
+}
+
+.call-left {
+ padding-right: 20px;
+}
+
+#call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#text {
+
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 25px;
+    
+  }
